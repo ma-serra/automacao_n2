@@ -122,6 +122,10 @@ with st.container(border=True):
         RANGE_NAME_D = 'Monitoramento!D1:D'  # Range para ler até a última linha da coluna D
         RANGE_NAME_E = 'Monitoramento!E1:E'  # Range para ler até a última linha da coluna E
         RANGE_NAME_C = 'Monitoramento!C1:C'  # Range para ler até a última linha da coluna C
+
+        print(f"SPREADSHEET_ID: {SPREADSHEET_ID}")
+        print(f"RANGE_NAME_B: {RANGE_NAME_B}")
+        print("Tentando acessar a API do Google Sheets...")
         
         # Gerando o restante do front-end
         st.subheader('', divider='rainbow')
