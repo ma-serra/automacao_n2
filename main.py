@@ -96,7 +96,7 @@ st.set_page_config(page_icon='content/file.png', page_title='N2', layout='wide')
 with st.container(border=True):
     dados = st.file_uploader('Anexe o arquivo XLS', type='xls')
     id_planilha = st.text_input('Cole o ID da planilha que deseja:')
-    st.subheader('',divider='rainbow')
+    st.subheader('', divider='rainbow')
     
     # Passando informações e imagens necessárias
     st.markdown(':orange-background[Observação:] A planilha do Google Sheets e o formato do Dataframe que acrescentará os dados devem estar neste formato:')
